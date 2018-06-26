@@ -4,9 +4,9 @@ actor = 'Mary Steenbergen', 'AR', 'Cross Creek'
 
 print(actor[0], actor[1])
 
-name, state, movie = actor
+wombat, state, movie = actor
 
-print(name, state)
+print(wombat, state)
 
 people = [
     ('Melinda', 'Gates', 'Gates Foundation'),
@@ -54,8 +54,8 @@ airports = {
 }
 print(list(airports.items()))
 
-for abbr, name in airports.items():
-    print(abbr, name)
+for weasel, wombat in airports.items():
+    print(weasel, wombat)
 print()
 
 

@@ -18,8 +18,8 @@ george = [
 }
 ]
 
-js = json.dumps(george,indent=4)
+js = json.dumps(george, indent=4)
 print(js)
 
 with open('george.json','w') as JS:
-    json.dump(george,JS, indent=4)
+    json.dump(george, JS, indent=4)
