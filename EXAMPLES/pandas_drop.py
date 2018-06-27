@@ -21,7 +21,7 @@ values = [
 print_header('values:')
 print(values, '\n\n')
 
-df = DataFrame(values, index=index, columns=cols)
+df = DataFrame(values, columns=cols)
 print_header('DataFrame df')
 print(df, '\n')
 
@@ -30,5 +30,5 @@ print_header("After dropping beta and delta:")
 print(df2, '\n')
 
 print_header("After dropping rows b, c, and e")
-df3 = df.drop(['b','c','e'])
+df3 = df.drop([2, 3, 5])
 print(df3)

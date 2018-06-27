@@ -6,7 +6,7 @@ Created on Sat May 18 10:46:25 2013
 
 """
 import numpy as np
-from pandas.core.frame import Series
+from pandas import Series
 
 NUM_VALUES = 10
 index = [chr(i) for i in range(97,97 + NUM_VALUES)]

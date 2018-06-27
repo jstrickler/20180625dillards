@@ -7,7 +7,7 @@ Created on Mon May 27 22:32:20 2013
 """
 import numpy as np
 from pandas.core.frame import DataFrame
-from printheader import printheader
+from printheader import print_header
 
 dataset1 = np.arange(9.).reshape((3,3))
 

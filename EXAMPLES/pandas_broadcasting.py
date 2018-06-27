@@ -38,3 +38,10 @@ print_header("Multiply column gamma by 1.5")
 df['gamma'] *= 1.5
 print(df)
 print()
+
+df['theta'] = df['alpha'] + df['beta']
+print_header("Add theta")
+print(df, '\n')
+
+df['iota'] = df['alpha'] ** .5
+print(df, '\n')

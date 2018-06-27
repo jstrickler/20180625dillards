@@ -5,7 +5,7 @@
 Created on Sun May 19 20:42:32 2013
 
 '''
-from pandas.core.frame import DataFrame
+from pandas import DataFrame
 from printheader import print_header
 
 cols = ['alpha','beta','gamma','delta','epsilon']
