@@ -1348,9 +1348,9 @@
            <day>20</day>
        </termstart>
        <termend>
-           <year></year>
-           <month></month>
-           <day></day>
+           <year>2017</year>
+           <month>Jan</month>
+           <day>20</day>
        </termend>
        <birthplace>Honolulu</birthplace>
        <birthstate>Hawaii</birthstate>
@@ -1365,5 +1365,35 @@
            <day></day>
        </death>
        <party>Democratic</party>
+    </president> 
+    <president>
+       <index>45</index>
+       <name>
+           <last>Trump</last>
+           <first>Donald John</first>
+       </name>
+       <termstart>
+           <year>2017</year>
+           <month>Jan</month>
+           <day>20</day>
+       </termstart>
+       <termend>
+           <year></year>
+           <month></month>
+           <day></day>
+       </termend>
+       <birthplace>Queens, NYC</birthplace>
+       <birthstate>New York</birthstate>
+       <birth>
+           <year>1946</year>
+           <month>Jun</month>
+           <day>14</day>
+       </birth>
+       <death>
+           <year></year>
+           <month></month>
+           <day></day>
+       </death>
+       <party>Republican</party>
     </president> 
 </presidents>

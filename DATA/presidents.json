@@ -572,6 +572,19 @@
         "dbirth":"1961-08-04",
         "ddeath":"None",
         "party":"Democratic"
+    },
+
+    {
+        "num":45,
+        "lname":"Trump",
+        "fname":"Donald J",
+        "dstart":"2017-01-20",
+        "dend":"None",
+        "birthplace":"Queens, NYC",
+        "birthstate":"New York",
+        "dbirth":"1946-06-14",
+        "ddeath":"None",
+        "party":"Republican"
     }
 
     ]
