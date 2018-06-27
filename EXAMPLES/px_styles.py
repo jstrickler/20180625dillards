@@ -13,10 +13,12 @@ def main():
 
 def update_last_names(ws):
     """Make the last name column blue and bold"""
-    for row in ws['B2:B45']:
+    for row in ws['B2:B46']:
         cell = row[0]
         cell.value = cell.value.upper()
-        cell.font = px.styles.Font(color='FF0000FF')
+        cell.font = px.styles.Font(color='FF0000FF', bold=True, italic=True)
+        cell.alignment = px.styles.Alignment(horizontal='center')
+
 
 if __name__ == '__main__':
     main()

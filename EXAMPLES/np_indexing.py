@@ -21,4 +21,6 @@ print()
 print('a[::2] =>', a[::2])         # every second row
 print()
 print('a[::2,::3] =>', a[::2,::3]) # every third element of every second row
- 
+
+#  ARRAY[ROW,COL]
+#  ARRAY[ROW-OR-SLICE,COL-OR-SLICE]

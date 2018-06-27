@@ -18,4 +18,6 @@ for i, fruit in enumerate(fruits, 1):
     ws.cell(row=i, column=1).value = fruit
     ws.cell(row=i, column=2).value = len(fruit)
 
+ws2 = wb.create_sheet("more stuff")
+
 wb.save('fruits.xlsx')

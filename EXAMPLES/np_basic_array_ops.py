@@ -36,6 +36,20 @@ print("b + 3")
 print(b + 3)
 print()
 
+
+
 s1 = a.sum()
 s2 = b.sum()
 print("sum of a is {0}; sum of b is {1}".format(s1,s2))
+
+a += 22
+print("a += 22:")
+print(a, '\n')
+
+def spam(x):
+    return .7 * x
+
+m = spam(a)
+print(m, '\n')
+
+

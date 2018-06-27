@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 import csv
 
-with open('DATA/airport_boardings.csv') as airport_in:
-    rdr = csv.DictReader(airport_in)
+headings = 'Term FirstName LastName BirthPlace BirthState Party'.split()
+
+with open('DATA/presidents.csv') as pres_in:
+    rdr = csv.DictReader(pres_in, fieldnames=headings)
     for row in rdr:
-        print(row['Code'], row['2010 Rank'])
+        print(row['FirstName'], row['LastName'])
 

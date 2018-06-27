@@ -16,7 +16,7 @@ def add_age_at_inauguration(ws):
     new_col = ws.max_column + 1
     print(new_col)
     ws.cell(row=1, column=new_col).value = 'Age at Inauguration'
-    for row in range(2, 46):
+    for row in range(2, 47):
         new_cell = ws.cell(row=row, column=new_col)
         new_cell.value = '=(H{0}-D{0})/365.0'.format(row)
         new_cell.number_format = '0.0'
